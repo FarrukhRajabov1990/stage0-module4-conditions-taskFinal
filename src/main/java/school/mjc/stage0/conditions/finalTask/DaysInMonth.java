@@ -3,7 +3,7 @@ package school.mjc.stage0.conditions.finalTask;
 public class DaysInMonth {
     public void printDays(int year, int month) {
 
-        if (year > 1900 && year <= 2024 && month > 0 && month <= 12) {
+        if (year >= 1900 && year <= 2024 && month > 0 && month <= 12) {
             switch (month) {
                 case 1, 3, 5, 7, 8, 10, 12 -> {
                     System.out.println(31);
@@ -16,7 +16,8 @@ public class DaysInMonth {
                     || year == 2024 || year == 1996 || year == 1992 || year == 1988 || year == 1984 || year == 1980 ||
                     year == 1976 || year == 1972 || year == 1968 || year == 1964 || year == 1960 || year == 1956 ||
                     year == 1952 || year == 1948 || year == 1944 || year == 1940 || year == 1936 || year == 1932 ||
-                    year == 1928 || year == 1924 || year == 1920 || year == 1916 || year == 1912 || year == 1908) {
+                    year == 1928 || year == 1924 || year == 1920 || year == 1916 || year == 1912 || year == 1908 ||
+                    year == 1904) {
                         System.out.println(29);
                     } else {
                         System.out.println(28);
