@@ -10,7 +10,7 @@ public class IntegerDivider {
             if (result * divider == dividend) {
                 System.out.println("can be divided completely");
             } else {
-                System.out.println("can not be divided completely");
+                System.out.println("cannot be divided completely");
             }
         }
     }
